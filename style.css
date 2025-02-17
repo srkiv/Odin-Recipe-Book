@@ -127,12 +127,9 @@ a {
     justify-content: space-around;
     align-items: center;
   }
-  .imagebox img{
-    height:400px;
-    width: 400px;
-  }
+ 
   .textbox{
-    width:920px;
+    width:720px;
    
     text-align: left;
  
