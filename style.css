@@ -14,7 +14,8 @@ display: flex;
 .SidePanel{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap:50px;
     height: 100vh;
 }
 
@@ -45,7 +46,7 @@ display: flex;
     padding-top: 10px;
 display: flex;
 flex-direction: column;
-gap: 120px;
+gap: 100px;
 }
 
 .Recipes{
@@ -55,6 +56,7 @@ gap: 120px;
 }
 
 .Text{
+  
     padding: 60px;
     padding-top: 10px;
     font-family: 'Norse';
@@ -65,6 +67,11 @@ gap: 120px;
     border-radius: 30%;
     height: 100px;
 }
+.Text1{
+  font-size: 60px;
+}
+
+
 .banner{
     display: flex;
     flex-direction: column;
@@ -111,11 +118,112 @@ a {
     font-size: 40px;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .imagebox img{
+    height:400px;
+    width: 400px;
+  }
+  .textbox{
+    width:920px;
+   
+    text-align: left;
+ 
   }
   .book{
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     flex-direction: row;
-    gap:30px;
+    gap:40px;
     text-align: left;
+    justify-content: space-around;
+  }
+
+
+  .align h1{
+    text-align: center;
+    padding-right: 10px;
+  }
+  .align ul{
+    list-style: none;
+  }
+
+  @media (max-width:768px) {
+    .Text{
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    font-size: 30px;
+    height: 200px;
+    align-items: center;
+
+    
+   
+  }
+
+  .banner{
+    flex-direction: column-reverse;
+    
+    padding-bottom: 10px;
+    background-color: rgb(75, 75, 75);
+    text-align: center;
+    color:rgba(230, 175, 87, 255);
+    font-size: 30px;
+    border-radius: 10%;
+    gap:0px;
+    align-items: center;
+    padding-bottom:30px;
+    padding-top: 0px;
+    padding-left:0px;
+    padding-right: 0px;
+   
+}
+.Content{
+  
+gap: 30px;
+}
+
+
+  
+
+    .Logo .a{
+      display: flex;
+      flex-direction: row-reverse;
+      flex-shrink: 2;
+    }
+  .Recipes{
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+  }
+ 
+
+.Flex{
+  display: block;
+}
+
+    .SidePanel{
+      padding-top: 60px;
+      padding-bottom: 100px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      height: 150px;
+      gap:0;
+      
+    }
+    .box1{
+      display: block;
+    }
+.link{
+  flex-grow: 2;
+  margin: 10px;
+}
+.textbox{
+  width:520px;
+  text-align: left;
+}
+    
   }
