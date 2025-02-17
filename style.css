@@ -6,6 +6,10 @@
   
 body{
     background-color: rgb(43, 42, 42); 
+    width:100%;
+    max-width: 1080px;
+    margin:0px;
+    padding:0px;
 }
 
 .Flex{
@@ -42,16 +46,18 @@ display: flex;
 }
 
 .Content{
-    padding: 60px;
+    padding: 40px;
+    
     padding-top: 10px;
+    
 display: flex;
 flex-direction: column;
-gap: 100px;
+gap: 50px;
 }
 
 .Recipes{
     display: flex;
-    gap: 50px;
+    gap: 20px;
     justify-content: center;    
 }
 
@@ -147,83 +153,4 @@ a {
   }
   .align ul{
     list-style: none;
-  }
-
-  @media (max-width:768px) {
-    .Text{
-    padding: 10px;
-    padding-top: 30px;
-    padding-bottom: 0px;
-    margin-top: 20px;
-    font-size: 30px;
-    height: 200px;
-    align-items: center;
-
-    
-   
-  }
-
-  .banner{
-    flex-direction: column-reverse;
-    
-    padding-bottom: 10px;
-    background-color: rgb(75, 75, 75);
-    text-align: center;
-    color:rgba(230, 175, 87, 255);
-    font-size: 30px;
-    border-radius: 10%;
-    gap:0px;
-    align-items: center;
-    padding-bottom:30px;
-    padding-top: 0px;
-    padding-left:0px;
-    padding-right: 0px;
-   
-}
-.Content{
-  
-gap: 30px;
-}
-
-
-  
-
-    .Logo .a{
-      display: flex;
-      flex-direction: row-reverse;
-      flex-shrink: 2;
-    }
-  .Recipes{
-    flex-direction: column;
-    flex-wrap: wrap;
-   
-  }
- 
-
-.Flex{
-  display: block;
-}
-
-    .SidePanel{
-      padding-top: 60px;
-      padding-bottom: 100px;
-      flex-direction: row;
-      align-items: center;
-      justify-content: flex-start;
-      height: 150px;
-      gap:0;
-      
-    }
-    .box1{
-      display: block;
-    }
-.link{
-  flex-grow: 2;
-  margin: 10px;
-}
-.textbox{
-  width:520px;
-  text-align: left;
-}
-    
   }
