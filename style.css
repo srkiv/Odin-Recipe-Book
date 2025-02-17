@@ -1,0 +1,121 @@
+
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norsebold.otf') format('opentype');
+  }
+  
+body{
+    background-color: rgb(43, 42, 42); 
+}
+
+.Flex{
+display: flex;
+}
+.SidePanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.Logo{
+    font-family: 'Norse';
+    color: rgba(227,178,97,255);
+    text-align: center;
+    background-color: rgb(87, 84, 84);
+    border-radius: 30%;
+}
+
+.Back,.link{
+   
+    font-family: 'Norse';
+    color: rgba(227,178,97,255);
+    text-align: center;
+    background-color: rgb(87, 84, 84);
+    border-radius: 30%;
+  
+
+}
+.Back:hover,.link:hover,.Logo:hover{
+    background-color: rgb(143, 143, 143);
+}
+
+.Content{
+    padding: 60px;
+    padding-top: 10px;
+display: flex;
+flex-direction: column;
+gap: 120px;
+}
+
+.Recipes{
+    display: flex;
+    gap: 50px;
+    justify-content: center;    
+}
+
+.Text{
+    padding: 60px;
+    padding-top: 10px;
+    font-family: 'Norse';
+    color: rgba(227,178,97,255); 
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(87, 84, 84);
+    border-radius: 30%;
+    height: 100px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Norse';
+    padding: 20px;
+    background-color: rgb(75, 75, 75);
+    text-align: center;
+    color:rgba(230, 175, 87, 255);
+    font-size: 30px;
+    border-radius: 10%;
+    gap:10px;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color:rgba(227,178,97,255);
+  }
+  img{
+    border-radius: 5%;
+  }
+
+  .banner:hover{
+    background-color: rgb(143, 143, 143);
+   color:rgba(227,178,97,255);
+  }
+
+  .Box{
+   
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    margin-top: 10px;
+    padding: 50px;
+    padding-top: 10px;
+    font-family: 'Norse';
+    color: rgba(227,178,97,255); 
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(87, 84, 84);
+    border-radius: 10%;
+    
+  }
+  .box1{
+    font-size: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .book{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    text-align: left;
+  }
